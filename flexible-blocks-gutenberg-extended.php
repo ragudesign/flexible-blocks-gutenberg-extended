@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       Flexible Blocks - Gutenberg Extended
  * Plugin URI:        http://flexibleblocks.com
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       Extend the gutenberg blocks with this plugin for more layouts
  * Version:           1.0.0
  * Author:            Ragu Design
  * Author URI:        https://ragu.design

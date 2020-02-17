@@ -96,7 +96,11 @@ class Flexib_Admin {
 		 * class.
 		 */
 
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/flexib-admin.js', array( 'jquery' ), $this->version, false );
+		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/flexib-admin.js', array( 'wp-blocks', 'wp-i18n', 'wp-element' ), $this->version, false );
+		register_block_type( 'gutenberg-examples/example-01-basic', array(
+			'editor_script' => 'gutenberg-examples-01',
+		) );
+
 
 	}
 
